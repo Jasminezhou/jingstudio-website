@@ -1,5 +1,3 @@
-
-
 $(document).ready(function(){
     $(".details").hover(function(){
         $(".case-title").addClass("move-up");
@@ -14,15 +12,6 @@ $(document).ready(function(){
         $(".case-details").addClass("move-down");
 		}, function() {
   		$(".case-details").removeClass("move-down");
-    });
-});
-
-
-$(document).ready(function(){
-    $(".details").hover(function(){
-        $(".case-img").addClass("show-img");
-		}, function() {
-  		$(".case-img").removeClass("show-img");
     });
 });
 
@@ -47,6 +36,15 @@ $(document).ready(function(){
 
 
 
+
+
+
+
+
+
+
+
+
 $(document).ready(function(){
     $(".case-title").hover(function(){
         $(".bg").removeClass("bg-white");
@@ -55,5 +53,11 @@ $(document).ready(function(){
     });
 });
 
-
+$(document).ready(function(){
+    $(".case-title").click(function () {
+          $(".case-title").addClass("move-up");
+          $(".case-details").addClass("move-down");
+          $(".case-img-device").addClass("show-img");
+    });
+     });
 
