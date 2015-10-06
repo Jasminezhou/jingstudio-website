@@ -224,7 +224,9 @@ background-image: url("../img/testing3.jpg");
 .text-roofing{
 	color: #062A4C;
 }
-
+.bg-studio{
+	background-image:  url("../img/bg-drawing.jpg");
+}
 
 
 
