@@ -11,7 +11,7 @@ body{
 	color: #fff;
 }
 .text-gray{
-	color: gray;
+	color: #6F7071;
 }
 
 
@@ -24,20 +24,88 @@ ul{
 	width: 60px;
 }
 
-
-
-
-
-
-
-
-
-
-
 .top{
 	margin-top: 7%;
 	min-height: 400px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+#indicator{
+	display: block;
+	position: absolute;
+	z-index: 999;
+	right: 90px;
+	opacity: 0.5;
+	transition: all 0.5s ease;
+}
+.carousel-control{
+	display: block;
+	 width: 75px;
+    height: 75px;
+}
+.rotateY-right{
+	  
+	
+}
+.rotateY-left{
+	      
+
+}
+.fa-arrow-left, .fa-arrow-right{
+	padding: 5px;
+	transform: rotate(-45deg);
+	position: absolute;
+	color: #A9A9A9;
+}
+.fa-arrow-left{
+	top: 46px;
+}
+.fa-arrow-right{
+	right: 1px;
+    top: 2px;
+}
+.fa-arrow-left:hover, .fa-arrow-right:hover{
+	color: #fff;
+	opacity: 1;
+}
+
+.fa-arrow-left:hover{
+
+}
+.carousel-indicators-text{
+	transform: rotate(-45deg);
+    text-align: center;
+    top: 29px;
+    left: 20px;
+    position: relative;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .bg-white{
 	background-color: #ddd;
 }
@@ -58,19 +126,20 @@ ul{
 	opacity: 0;
 	transition: all 0.5s ease;
 }
-
-.case-details{
-	margin-top: -10%;
-	transition: all 0.5s ease;
-}
 .case-title{
 	text-transform: uppercase;
 	letter-spacing: -0.02em;
-	margin-top: 3%;
-	font-size: 7.5em;
+	margin-top: 90px;
+	font-size: 6.5em;
 	line-height: 1;
 	transition: all 0.5s ease;
 }
+.case-details{
+	color: white;
+	margin-top: -74px;
+	transition: all 0.5s ease;
+}
+
 .details{
 	z-index: 99;
 	position: absolute;
@@ -78,6 +147,19 @@ ul{
 	left: 50%;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .case-title:hover{
 	cursor: pointer;
@@ -177,6 +259,29 @@ background-image: url("../img/testing3.jpg");
 }
 	.show-img{
 	opacity: 0;
+}
+
+.carousel-indicators li {
+  
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  text-indent: -999px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #000 \9;
+  background-color: rgba(0, 0, 0, 0);
+
+}
+.carousel-indicators .active {
+
+  margin: 0;
+  width: 12px;
+  height: 12px;
+  background-color: #ffffff;
+
 }
 
 }
