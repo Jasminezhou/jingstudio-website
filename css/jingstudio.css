@@ -290,5 +290,47 @@ background-image: url("../img/testing3.jpg");
 
 
 
+.artwork{
+	display: inline-block;
+	float: left;
+	margin: 15px;
+	position: relative;
+	width: 200px;
+	transition: all 0.5s ease;
+}
+.artwork img{
+	width: 100%;
+}
+
+.artwork-width{
+	width: 300px;
+}
+.mask{
+	padding: 15px;
+	opacity: 0;
+	background-color: black;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 50%;
+	transition: all 0.5s ease;
+}
+.mask:hover{
+	opacity: 1;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
