@@ -46,6 +46,7 @@ template {
   display: none;
 }
 a {
+  color: #888888;
   background-color: transparent;
 }
 a:active,
@@ -1099,13 +1100,14 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #df691a;
+  cursor: pointer;
+  color: #888888;
+  opacity: 0.8;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #df691a;
-  text-decoration: underline;
+  opacity: 1;
 }
 a:focus {
   outline: thin dotted;
@@ -5751,8 +5753,9 @@ button.close {
   margin: 10px;
 }
 .modal-content {
+  margin: 30px;
   position: relative;
-  background-color: #f0f0f0;
+  background-color: #F0EBE5;
   border: 1px solid transparent;
   border-radius: 0;
   -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
@@ -5792,7 +5795,8 @@ button.close {
 }
 .modal-body {
   position: relative;
-  padding: 60px;
+  width: 100%;
+  margin-top: 60px;
 }
 .modal-footer {
   padding: 20px;
@@ -6183,7 +6187,7 @@ button.close {
   content: '\203a';
 }
 .carousel-indicators {
-      margin-left: -42px;
+      margin-left: -44px;
     transform: rotate(-45deg);
   list-style: none;
 }
@@ -6205,7 +6209,8 @@ button.close {
   */
 }
 .carousel-indicators .active {
-  color: inherit;
+  font-size: 1.3em;
+  color: #000;
   /*
   margin: 0;
   width: 12px;
