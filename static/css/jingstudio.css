@@ -37,6 +37,29 @@ ul{
 	min-height: 400px;
 }
 
+
+.bar{
+	background-color: #6F7071;
+	width: 50px;
+	height: 3px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.img-high-responsive{
+	height: 100vh;
+}
+
+
+
+
+
+
+
+
+
 nav{
 	font-size: 17px;
 	color: #000;
@@ -404,21 +427,29 @@ background-image: url("../img/testing3.jpg");
 
 
 
-.service p{
-	font-size: 85%;
-}
+
 
 .services-intro{
-	min-height: 100vh;
-}
-.service{
+	display: table;
 	min-height: 50vh;
-	border: 1px solid #efefef;
+}
+
+.service{
+	display: table;
+	min-height: 25vh;
+}
+
+.service p{
+	font-size: 85%;
 }
 #services .col-md-8{
 	padding: 0;
 }
 
+.contants{
+	display: table-cell;
+	vertical-align: middle;
+}
 
 
 
