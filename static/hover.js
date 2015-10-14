@@ -14,7 +14,7 @@ $(document).ready(function(){
     });
 
 
-    $(".case-title").hover(function(){
+        $(".case-title").hover(function(){
         $(".bg").toggleClass("bg-white");
         $(".case-details").toggleClass("white");
     });
