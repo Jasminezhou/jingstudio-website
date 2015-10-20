@@ -15,6 +15,10 @@
 .bg-illustration{
 	background-image: url("https://s-media-cache-ak0.pinimg.com/736x/a6/d5/66/a6d566a8368965e0248e3383033c9570.jpg");
 }
-.bg-lettering{
-	background-image: url("http://netdna.webdesignerdepot.com/uploads/2014/01/ht_004.jpg");
+.bg-art{
+	background-image: url("../img/art.jpg");
+}
+
+.title{
+	font-size: 50px;
 }
