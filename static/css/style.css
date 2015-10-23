@@ -1,16 +1,60 @@
+body{
+	font-size: 17px;
+}
+.padding-15{
+	padding: 30px;
+}
+.margin-top-60{
+	margin-top: 60px;
+}
+.title{
+	text-transform: capitalize;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	line-height: 1;
+}
+.description{
+	font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .carousel-inner > .item {
 	height: 100%;
     width: 100%;
     position: fixed;
     background-size: cover;
-    background-color: gray;
+    transition: all 0.5s ease;
 }
 
 
 
 
 .bg-pattern{
-	background-image: url("http://www.freevector.com/site_media/preview_images/FreeVector-Square-Patterns-Set.jpg");
+	background-image: url("http://orig14.deviantart.net/405b/f/2012/180/b/f/pattern_variation_by_absurdwordpreferred-d55auet.jpg");
 }
 .bg-illustration{
 	background-image: url("https://s-media-cache-ak0.pinimg.com/736x/a6/d5/66/a6d566a8368965e0248e3383033c9570.jpg");
@@ -19,9 +63,71 @@
 	background-image: url("../img/art.jpg");
 }
 
-.title{
-	font-size: 120px;
-	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
+.home-title{
+	margin-top: 30%;
+	font-size: 8em;
 }
+.description{
+	color: #B1B1B1;
+	margin-top: -60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.thumbnail-title{
+	font-size: 95px;
+}
+
+.thumbnail-description{
+	min-height: 600px;
+}
+.thumbnail-img{
+	height: 300px;
+}
+.thumbnail-1{
+	background-image: url("http://orig14.deviantart.net/405b/f/2012/180/b/f/pattern_variation_by_absurdwordpreferred-d55auet.jpg");
+}
+
+.thumbnail-2{
+	background-image: url("http://www.patternsforcolouring.com/images/AR_pattern3.png");
+}
+
+.thumbnail-3{
+	background-image: url("https://image.freepik.com/free-vector/bathroom-mosaic-pattern_23-2147497370.jpg");
+}
+.thumbnail-img p{
+	visibility: hidden;
+}
+.thumbnail-img:hover p{
+	visibility: visible;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
