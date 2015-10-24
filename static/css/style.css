@@ -156,17 +156,15 @@ a.icon-thumbnail:hover{
 
 
 
-.demo-info{
+.horizontal-layout-info{
 	background-color: #fff;
 	padding: 15px;
 }
-#demo .col-md-6{
-	margin-bottom: 60px;
-}
-#demo img{
+
+#horizontal-layout img{
 	padding-left: 0;
 }
-#demo .col-md-10{
+#horizontal-layout .col-sm-12{
 	padding-left: 0;
 	margin-bottom: 60px;
 }
