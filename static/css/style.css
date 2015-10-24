@@ -1,7 +1,10 @@
 body{
 	font-size: 17px;
 }
-.padding-15{
+.padding-5{
+	padding:5px;
+}
+.padding-30{
 	padding: 30px;
 }
 .margin-top-60{
@@ -14,7 +17,17 @@ body{
 	line-height: 1;
 }
 .description{
+	color: #B1B1B1;
 	font-size: 17px;
+}
+.bg-white{
+	background-color: #fff;
+}
+.bg-gray{
+	background-color: #EFEDEB;
+}
+.text-gray{
+	color: #ccc;
 }
 
 
@@ -34,10 +47,13 @@ body{
 
 
 
-
-
-
-
+.jing-icon img{
+	width: 45px;
+	position: fixed;
+	top: 15px;
+	left: 15px;
+	z-index: 99;
+}
 
 
 
@@ -64,11 +80,10 @@ body{
 }
 
 .home-title{
-	margin-top: 30%;
-	font-size: 8em;
+	margin-top: 24%;
+	font-size: 6em;
 }
-.description{
-	color: #B1B1B1;
+.home-description{
 	margin-top: -60px;
 }
 
@@ -115,6 +130,19 @@ body{
 .thumbnail-img:hover p{
 	visibility: visible;
 }
+a.icon-thumbnail{
+	position: fixed;
+	right: 15px;
+	z-index: 99;
+	top: 15px;
+	border:5px solid black;
+	padding: 5px;
+	color:#000;
+}
+a.icon-thumbnail:hover{
+	background-color: #000;
+	color: #fff;
+}
 
 
 
@@ -128,6 +156,17 @@ body{
 
 
 
-
-
-
+.demo-info{
+	background-color: #fff;
+	padding: 15px;
+}
+#demo .col-md-6{
+	margin-bottom: 60px;
+}
+#demo img{
+	padding-left: 0;
+}
+#demo .col-md-10{
+	padding-left: 0;
+	margin-bottom: 60px;
+}
