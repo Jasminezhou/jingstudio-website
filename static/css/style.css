@@ -30,7 +30,9 @@ body{
 	color: #ccc;
 }
 
-
+.transition{
+	transition: all 0.5s ease;
+}
 
 
 
@@ -55,34 +57,61 @@ body{
 	z-index: 99;
 }
 
+    
 
-
-
-.carousel-inner > .item {
+.carousel{
 	height: 100%;
-    width: 100%;
-    position: fixed;
+}
+.carousel-inner > .item {
+	min-height: 100vh;
     background-size: cover;
     transition: all 0.5s ease;
 }
 
 
+.carousel-indicators li{
+	text-indent: initial;
+	background-color: #E5E5E5;
+		border: transparent;
+}
+.carousel-indicators li p{
+	visibility: hidden;
+	transform: translateY(-8px);
+}
+.carousel-indicators .active{
+	background-color: transparent;
 
+}
+.carousel-indicators .active p{
+	visibility: visible;
+}
+.carousel-control{
+	text-shadow:initial;
+    opacity: 0.2;
+}
+.carousel-control:hover,
+.carousel-control:focus{
+	opacity: 0.3;
+}
 
 .bg-pattern{
-	background-image: url("http://orig14.deviantart.net/405b/f/2012/180/b/f/pattern_variation_by_absurdwordpreferred-d55auet.jpg");
+	background-image: url("../img/art.jpg");
 }
 .bg-illustration{
-	background-image: url("https://s-media-cache-ak0.pinimg.com/736x/a6/d5/66/a6d566a8368965e0248e3383033c9570.jpg");
+	background-image: url("../img/art.jpg");
 }
 .bg-art{
 	background-image: url("../img/art.jpg");
 }
 
 .home-title{
-	margin-top: 24%;
+	margin-top: 25%;
 	font-size: 6em;
+	cursor: pointer;
+	transition: all 0.5s ease;
+	
 }
+
 .home-description{
 	margin-top: -60px;
 }
