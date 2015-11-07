@@ -371,3 +371,32 @@ a.icon-thumbnail:hover{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.stay-bg{
+	background-repeat: repeat;
+	background-image: url("../img/bw.png");
+	background-attachment: fixed;
+}
