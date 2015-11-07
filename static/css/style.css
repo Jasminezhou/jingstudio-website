@@ -7,8 +7,14 @@ body{
 .padding-30{
 	padding: 30px;
 }
+.margin-top-30{
+	margin-top: 30px;
+}
 .margin-top-60{
 	margin-top: 60px;
+}
+.big-title{
+	font-size: 60px;
 }
 .title{
 	text-transform: capitalize;
@@ -32,10 +38,13 @@ body{
 .text-white{
 	color: #fff;
 }
+
 .transition{
 	transition: all 0.5s ease;
 }
-
+a:hover{
+	text-decoration: none;
+}
 
 
 
@@ -184,7 +193,7 @@ body{
 
 
 .bg-pattern{
-	background-image: url("https://s-media-cache-ak0.pinimg.com/736x/42/4e/86/424e86265f11982b00de0317f2269921.jpg");
+	background-image: url("https://lh3.googleusercontent.com/-4iFXk82N7Vw/TXno8Q9gJLI/AAAAAAAAJYI/GuFGXwHcQww/s1600/5495239696_f68eb9af2e_z.jpg");
 }
 .bg-illustration{
 	background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/hd/b9872c30905073.5638a16d5a0a5.jpg");
@@ -233,15 +242,15 @@ body{
 .thumbnail-img{
 	height: 300px;
 }
-.thumbnail-1{
+.thumbnail-1, .bg-1{
 	background-image: url("http://orig14.deviantart.net/405b/f/2012/180/b/f/pattern_variation_by_absurdwordpreferred-d55auet.jpg");
 }
 
-.thumbnail-2{
+.thumbnail-2, .bg-2{
 	background-image: url("http://www.patternsforcolouring.com/images/AR_pattern3.png");
 }
 
-.thumbnail-3{
+.thumbnail-3, .bg-3{
 	background-image: url("https://image.freepik.com/free-vector/bathroom-mosaic-pattern_23-2147497370.jpg");
 }
 .thumbnail-img p{
@@ -288,3 +297,77 @@ a.icon-thumbnail:hover{
 	padding-left: 0;
 	margin-bottom: 60px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+#project-bg{
+	background-position:center;
+	min-height: 100vh;
+	background-size: cover;
+}
+#project-bg h1{
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.project-description{
+	padding-left: 15px;
+	position: absolute;
+	bottom: 120px;
+	transition: all 0.5s ease;
+}
+.opacity3{
+	opacity: 0.3;
+}
+
+
+.coffee a:hover{
+	color: #AA874E;
+}
+.bg-coffee{
+	background-image: url("../img/coffee2.jpg");
+}
+.border-coffee{
+	border-left: 5px solid #AA874E;
+}
+
+
+.roofing a:hover{
+	color: blue;
+}
+.bg-roofing{
+	background-image: url("../img/4.jpg");
+}
+.border-roofing{
+	border-left: 5px solid blue;
+}
+
+
+
+
+.carl a:hover{
+	color: lightseagreen;
+}
+.bg-carl{
+	background-image: url("../img/1.png");
+}
+.border-carl{
+	border-left: 5px solid lightseagreen;
+}
+
+
+
+
+
+
+
+
