@@ -46,9 +46,39 @@ a:hover{
 	text-decoration: none;
 }
 
+#letter-icon{
+	cursor: pointer;
+	padding: 3px;
+	margin: 15px;
+	display: block;
+	font-size: 30px;
+	color: #fff;
+	width: 45px;
+	height: 45px;
+	text-align: center;
+	text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 0.3s ease;
+    background-color: #000;
+}
 
-
-
+#letter-icon:hover{
+	box-shadow: inset 3px 4px 5px -2px rgba(131, 131, 131, 0.44);
+	background-color: #DADADA;
+    text-shadow: 0 1px 0 #cccccc, 
+    			 0 2px 0 #c9c9c9, 
+    			 0 3px 0 #bbbbbb, 
+    			 0 4px 0 #b9b9b9, 
+    			 0 5px 0 #aaaaaa, 
+    			 0 6px 1px rgba(0, 0, 0, 0.1), 
+    			 0 0 5px rgba(0, 0, 0, 0.1), 
+    			 0 1px 3px rgba(0, 0, 0, 0.3), 
+    			 0 3px 5px rgba(0, 0, 0, 0.2), 
+    			 0 5px 10px rgba(0, 0, 0, 0.25), 
+    			 0 10px 10px rgba(0, 0, 0, 0.2), 
+    			 0 20px 20px rgba(0, 0, 0, 0.15);
+	padding: 0px;
+}
 
 
 
