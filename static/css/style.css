@@ -1,6 +1,5 @@
 body{
 	font-size: 17px;
-	overflow: hidden;
 }
 .padding-5{
 	padding:5px;
@@ -21,7 +20,7 @@ body{
 	text-transform: capitalize;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
-	line-height: 0.9;
+	line-height: 1;
 }
 .description{
 	color: #B1B1B1;
@@ -99,15 +98,6 @@ a:hover{
 	z-index: 99;
 }
 
-.menu-icon .glyphicon{
-    font-size: 25px;
-    position: fixed;
-	right: 15px;
-    color: black;
-    padding: 5px;
-    z-index: 99;
-    border: 5px solid black;
-}
 
 
 
@@ -191,6 +181,7 @@ footer p{
 
 
 
+
 .carousel{
 	height: 100%;
 }
@@ -222,7 +213,6 @@ footer p{
     position: absolute;
     right: 30px;
     top: 30px;
-
 }
 .carousel-indicators li{
 	text-indent: initial;
@@ -296,11 +286,9 @@ footer p{
 }
 
 
-
 .bg-pattern{
 	background-image: url("../img/pattern.jpg");
 }
-
 .bg-illustration{
 	background-image: url("../img/39.jpg");
 }
@@ -311,8 +299,8 @@ footer p{
 	background-image: url("../img/gif/app6.gif");
 }
 .home-title{
-	margin-top: 33%;
-	font-size: 5.5em;
+	margin-top: 25%;
+	font-size: 6em;
 	cursor: pointer;
 	transition: all 0.5s ease;
 	
