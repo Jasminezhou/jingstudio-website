@@ -25,7 +25,21 @@
 
     <nav>
       <a class="jing-icon" href="index.html"><img src="img/jing_icon.png"></a>
+      <a class="menu-icon" href=""><span class="glyphicon glyphicon-menu-hamburger hamburger" aria-hidden="true"></span></a>
+      <a class="menu-icon" href=""><span class="glyphicon glyphicon-remove hidden menu-close" aria-hidden="true"></span></a>
     </nav>
+
+    <div class="menu-items list">
+      <h2>this’s the fantastic thing about the web community. Now I’m using "Textures and Patterns" as my way of giving back  to the community of web designers and developers or anyone else who needs some high quality patterns.  All works are done by JING STUDIO.</h2>
+      
+    </div>
+
+    <div class="menu-items info">
+      <h2>WORK</h2>
+      <h2>SERVICES</h2>
+      <h2>DEMOS</h2>
+      
+    </div>
 
 
 
@@ -35,6 +49,7 @@
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
+
 
   
       <div class="item bg bg-pattern active">
@@ -51,13 +66,16 @@
       </div>
 
       <div class="item bg bg-coding" id="coding">
+
         <div class="bg bg-white">
           <div class="col-md-offset-3 col-md-6">
             <h1 class="title home-title pattern-title">Apps & Interactive</h1> 
           </div>
           <div class="col-md-offset-6 col-md-3 description home-description">
+
             <p>Great code takes careful planning and requires an extensive knowledge of the tools at our disposal; it must be well documented and modular, so that the product's structure is always clear, and components can be developed in a timely and cost efficient manner. It must perform well across a wide range of devices and be well crafted. What's more, we do not limit ourselves by using templates or ready-made frameworks - we build sites and apps from the ground up, which affords us the freedom to not only create the great experience your users expect, but also ensure the project is flexible enough to not fall apart when new features are needed.</p>
           <a class="btn btn-default" href="pin.html" role="button">Demos and sources</a>
+
           </div>
         </div>
       </div>
@@ -99,7 +117,7 @@
           <li data-target="#carousel-example-generic" data-slide-to="3"><p>4</p></li>
         </ol>
         <p class="indicators-total">/<br>4</p>
-      
+
   
   
         <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
@@ -157,6 +175,21 @@
     });
     $(".carousel-control.right").hover(function(){
         $(".indicators-wrap").toggleClass("indicators-wrap-right");
+    });
+
+
+    $(".menu-icon").hover(function(){
+        $(".list").addClass("top");
+        $(".info").addClass("bottom");
+        $(".hamburger").addClass("disabled");
+        $(".hamburger").css("pointer-events", "none");
+        $(".hamburger").css("opacity", "0.3");
+        $(".glyphicon-remove").removeClass("hidden");
+    });
+
+    $("menu-close").click(function(){
+       $(".list").removeClass("top");
+        $(".info").removeClass("bottom");
     });
     </script>
   </body>
