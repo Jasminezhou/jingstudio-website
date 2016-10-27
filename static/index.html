@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Jing studio</title>
+    <title>Jing studio 8.0</title>
 
     <!-- Bootstrap -->
     <link href="fonts/font-awesome.css" rel="stylesheet">
@@ -38,10 +38,10 @@
         <div class="bottom-line"></div>
         <p class="small">Role:</p>
         <h4 class="role">
-          Web Design<br>
+          Shopping UX/UI Design<br>
           Icon Design<br>
           Branding<br>
-          Web Development
+          Package Design
         </h4>
       </div>
       </div>
@@ -67,9 +67,7 @@
   <div class="project-right">
     <div class="contant-left">
     <p>Project - <span class="black-background-text">01</span></p>
-    <p class="project-info">
-      Our task was to redesign the user experience and visual interface, and to promote the refreshed landing page.In this project, we worked on front-end development and the design part.
-    </p>
+    <p class="project-info">This is how we use 'design' to drive a brand forward. Our task was to design the user experience and visual interface, to promote the fresh landing page. In this project, we worked on front-end development and the design part.</p>
 
 
 
@@ -100,20 +98,23 @@
 
 
 
-<div class="container-fulid project-detail-contant">
-    <div class="col-md-6 col-md-offset-3" id="coffee-contant">
-      <div class="col-md-4 col-md-offset-4 project-into">
+<div class="container-fluid project-detail-contant">
+    <div class="x"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></div>
+    <div id="coffee-contant">
+      <div class="col-sm-4 col-sm-offset-4 col-xs-8 col-xs-offset-2 project-into">
         <h2>Project Objective</h2>
-        <p class="project-info">ur task was to redesign the user experience and visual interface, and to promote the refreshed landing page.In this project, we worked on front-end development and the design part.</p>
+        <p class="project-info">This is how we use 'design' to drive a brand forward. Our task was to design the user experience and visual interface, to promote the fresh landing page. In this project, we worked on front-end development and the design part.</p>
       </div>
+
       <div class="verticalLine"></div>
-        <img class="project-detail-image-1 img-responsive" src="imgs/tea/tea-1.jpg">
-        <img class="project-detail-image-2 img-responsive" src="imgs/tea/tea-2.jpg">
-        <img class="project-detail-image-3 img-responsive" src="imgs/tea/tea-3.jpg">
-      
+        <img class="project-detail-image-1 img-responsive col-sm-8 col-sm-offset-2" src="imgs/tea/tea-1.jpg">
+        <img class="project-detail-image-2 img-responsive" src="imgs/tea/tea-4.jpg">
+        <img class="project-detail-image-3 img-responsive col-sm-8 col-sm-offset-2" src="imgs/tea/tea-3.jpg">
+        <img class="project-detail-image-4 img-responsive" src="imgs/tea/tea-2.jpg"> 
     </div>
-    <div class="verticalLine"></div>
-    <a class="btn col-sm-12 close">CLOSE</a>
+
+
+    
 </div>
 
 
@@ -130,11 +131,15 @@
             <img class="col-xs-6 col-xs-offset-3 img-responsive"src="imgs/horse_art.jpg">
           </div>
           <div class="padding-15">
-        <p>We do Design, E-commerce, Development. We build Simple and Beautiful things. We dig deep to build things that are actually useful instead of things that just lay there and look pretty. We build things shows you ideas.</p>
+        <p>We do Design, E-commerce, fully responsive digital platform & Application Development. We build useful and beautiful things. We dig deep to build things that are actually smart and functional well. We build things implement your ideas.</p>
+
+        
 
         <p>We look forward to hearing from you, anytime, anywhere!</p>
         <h5>Please Email to:</h5>
         <p><a href="mailto:hello.jingstudio@gmail.com">hello.jingstudio@gmail.com</a></p>
+
+        <p class="text-center"><a href="https://github.com/Jasminezhou" target="_blank"><i class="fa-lg fa fa-github"></i></a> <a href="https://www.behance.net/jingstudio" target="_blank"><i class="fa-lg fa fa-behance"></i></a> <a href="https://www.pinterest.com/WebDesignAppDes/illustrations-web-design/" target="_blank"><i class="fa-lg fa fa-pinterest"></i></a></p>
 
         </div>
         </div>
@@ -166,7 +171,7 @@
       $(".project-front-right").toggleClass("move-to-right");
     });
 
-    $(".close").click(function(){
+    $(".x").click(function(){
       $(".project-detail-contant").hide();
       $("#left-side").toggleClass("col-sm-12");
       $("#left-side").toggleClass("col-sm-8");
@@ -202,12 +207,16 @@
       $(".project-front-image").removeClass("roofing-bg");
       $( ".contant-right" ).text( "01" );
       $( ".white-background-text" ).text( "Case Study" );
-      $( ".role" ).html( "Web Design<br>Icon Design<br>Branding<br>Web Development" );
+      $( ".role" ).html( "Shopping UX/UI Design<br>Icon Design<br>Branding<br>Package Design" );
       $( ".black-background-text" ).text( "01" );
-      $( ".project-info" ).text( "Our task was to redesign the user experience and visual interface, and to promote the refreshed landing page.In this project, we worked on front-end development and the design part." );
+      $( ".project-info" ).text( "This is how we use 'design' to drive a brand forward. Our task was to design the user experience and visual interface, to promote the fresh landing page. In this project, we worked on front-end development and the design part." );
       $('.project-detail-image-1').attr('src','imgs/tea/tea-1.jpg');
-      $('.project-detail-image-2').attr('src','imgs/tea/tea-2.jpg');
+      $('.project-detail-image-2').attr('src','imgs/tea/tea-4.jpg');
       $('.project-detail-image-3').attr('src','imgs/tea/tea-3.jpg');
+      $('.project-detail-image-4').attr('src','imgs/tea/tea-2.jpg');
+
+      
+
     });
 
     $(".roofing-menu").click(function(){
@@ -217,12 +226,13 @@
       $(".project-front-image").addClass("roofing-bg");
       $( ".contant-right" ).text( "02" );
       $( ".white-background-text" ).text( "Client: Helios Roofing & Waterproofing" );
-      $( ".role" ).html( "Web Design<br>Icon Design<br>Web Development" );
+      $( ".role" ).html( "Weather roofing estimate<br>Web Design<br>Icon Design<br>Web Development" );
       $( ".black-background-text" ).text( "02" );
-      $( ".project-info" ).html( "<p>Over 24 rooofing Icons were designed by this project. No where to copy roofing icons.  Also, our task was to redesign the user experience and visual interface, and to promote the refreshed landing page.In this project, we worked on front-end development and the design part.</p> <a href='http://www.heliosroofing.com/' target='_blank'>Visit the website</a>" );
-      $('.project-detail-image-1').attr('src','https://s-media-cache-ak0.pinimg.com/564x/ea/d7/f7/ead7f72759157dabd5319c62d7b013fa.jpg');
-      $('.project-detail-image-2').attr('src','https://s-media-cache-ak0.pinimg.com/564x/29/96/ce/2996ce1a49ae1b17bf359eeef98c4e98.jpg');
-      $('.project-detail-image-3').attr('src','https://s-media-cache-ak0.pinimg.com/564x/6a/3e/84/6a3e84d11ca1617ed59595abbd9485c1.jpg');
+      $( ".project-info" ).html( "<p>Over 19 roofing Icons were designed by this project. We create the weather roofing estimate, which specifically connect to the roofing industry, this solution help the customer to understand the roofing project’s unique working schedule.</p> <a href='http://www.heliosroofing.com/' target='_blank'>Visit the website</a>" );
+      $('.project-detail-image-1').attr('src','imgs/roofing/roofing-4.jpg');
+      $('.project-detail-image-2').attr('src','imgs/roofing/roofing-2.jpg');
+      $('.project-detail-image-3').attr('src','imgs/roofing.jpg');
+      $('.project-detail-image-4').attr('src','imgs/roofing/roofing-3.jpg');
     });
 
     $(".ets-menu").click(function(){
@@ -232,12 +242,13 @@
       $(".project-front-image").removeClass("roofing-bg");
       $( ".contant-right" ).text( "03" );
       $( ".white-background-text" ).text( "Client: Carl Data Solutions" );
-      $( ".role" ).html( "System design<br>Backend Development<br>Data analysising");
+      $( ".role" ).html( "Cross-Platform Responsive design<br>Complex management system design<br>Backend Development<br>Business Measurement & Analytics");
       $( ".black-background-text" ).text( "03" );
-      $( ".project-info" ).text( "We design the hold system from front-end to Backend. The system collect huge date, and snslysing and report the resout." );
-      $('.project-detail-image-1').attr('src','imgs/ets/ets-1.png');
-      $('.project-detail-image-2').attr('src','imgs/ets/ets-2.jpg');
-      $('.project-detail-image-3').attr('src','imgs/ets/ets-3.png');
+      $( ".project-info" ).text( "The integration system collect huge date, with Reporting/Business intelligence tools. The System for multi-language users , with WYSIWYG (Content Management System) integration platform, calculating system, beautiful responsive themes and many more." );
+      $('.project-detail-image-1').attr('src','imgs/ets/ets-2.jpg');
+      $('.project-detail-image-2').attr('src','imgs/ets/ets-3.png');
+      $('.project-detail-image-3').attr('src','imgs/ets/ets-4.jpg');
+      $('.project-detail-image-4').attr('src','imgs/ets/ets-1.jpg');
     });
     
 
@@ -247,13 +258,14 @@
       $(".project-front-image").addClass("house-bg");
       $(".project-front-image").removeClass("roofing-bg");
       $( ".contant-right" ).text( "04" );
-      $( ".white-background-text" ).text( "Real Estate Agent" );
-      $( ".role" ).html( "Real listing<br>Web Design<br>Frondend & Backend development" );
+      $( ".white-background-text" ).text( "Client: Real Estate Agent" );
+      $( ".role" ).html( "API Real listing<br>Application desing and development<br>Frondend & Backend development" );
       $( ".black-background-text" ).text( "04" );
-      $( ".project-info" ).text( "The big project including online website, mobio app and so on. Everything is coming soon." );
+      $( ".project-info" ).text( "Real Estate project helps every day agents and house buyer from the map sector to perform more and better online. The big project including online website, mobile app and so much more. Everything is coming soon." );
       $('.project-detail-image-1').attr('src','imgs/house/house-1.png');
-      $('.project-detail-image-2').attr('src','imgs/house/house-2.png');
-      $('.project-detail-image-3').attr('src','imgs/house/house-3.png');
+      $('.project-detail-image-2').attr('src','imgs/house/house-4.jpg');
+      $('.project-detail-image-3').attr('src','imgs/house/house-3.jpg');
+      $('.project-detail-image-4').attr('src','imgs/house/house-2.jpg');
     });
     
 
