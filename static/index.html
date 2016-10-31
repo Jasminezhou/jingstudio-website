@@ -34,9 +34,8 @@
       <div class="project-front-left">
         <div class="contant-left">
 
-        <p><span class="white-background-text">Case Study</span></p>
-        <div class="bottom-line"></div>
-        <p class="small">Role:</p>
+        <p><span class="white-background-text hidden-xs">Case Study</span></p>
+        <div class="bottom-line hidden-xs"></div>
         <h4 class="role">
           Icon Design<br>
           Branding<br>
@@ -46,7 +45,7 @@
       </div>
 
       <div class="project-front-right">
-        <p class="contant-right">01</p>
+        <p class="contant-right"><span class="hidden-xs">0</span><span class="number">1</span></p>
       </div>
 
       <div class="side-menu">
@@ -186,6 +185,14 @@
       $(".project-front-right").toggleClass("move-to-right");
     });
 
+    $(".side-menu-name").click(function(){
+      $(".side-menu-name").removeClass("side-menu-name-hovered");
+      $(".side-menu-name").find( ".line" ).removeClass("line-active");
+      $(this).addClass("side-menu-name-hovered");
+      $(this).find( ".line" ).addClass("line-active");
+    });
+
+
 
 
 
@@ -210,9 +217,9 @@
       $(".project-front-image").removeClass("ets-bg");
       $(".project-front-image").removeClass("house-bg");
       $(".project-front-image").removeClass("roofing-bg");
-      $( ".contant-right" ).text( "01" );
+      $( ".number" ).text( "1" );
       $( ".white-background-text" ).text( "Case Study" );
-      $( ".role" ).html( "Shopping UX/UI Design<br>Icon Design<br>Branding<br>Package Design" );
+      $( ".role" ).html( "Icon Design<br>Branding<br>Package Design" );
       $( ".black-background-text" ).text( "01" );
       $( ".project-info" ).text( "This is how we use 'design' to drive a brand forward. Our task was to design the user experience and visual interface, to promote the fresh landing page. In this project, we worked on front-end development and the design part." );
       $('.project-detail-image-1').attr('src','imgs/tea/tea-1.jpg');
@@ -229,9 +236,9 @@
       $(".project-front-image").removeClass("ets-bg");
       $(".project-front-image").removeClass("house-bg");
       $(".project-front-image").addClass("roofing-bg");
-      $( ".contant-right" ).text( "02" );
+      $( ".number" ).text( "2" );
       $( ".white-background-text" ).text( "Client: Helios Roofing & Waterproofing" );
-      $( ".role" ).html( "Weather roofing estimate<br>Web Design<br>Icon Design<br>Web Development" );
+      $( ".role" ).html( "Weather estimate<br>Icon Design<br>Web Design and Development" );
       $( ".black-background-text" ).text( "02" );
       $( ".project-info" ).html( "<p>Over 19 roofing Icons were designed by this project. We create the weather roofing estimate, which specifically connect to the roofing industry, this solution help the customer to understand the roofing project’s unique working schedule.</p> <a href='http://www.heliosroofing.com/' target='_blank'>Visit the website</a>" );
       $('.project-detail-image-1').attr('src','imgs/roofing/roofing-4.jpg');
@@ -245,9 +252,9 @@
       $(".project-front-image").addClass("ets-bg");
       $(".project-front-image").removeClass("house-bg");
       $(".project-front-image").removeClass("roofing-bg");
-      $( ".contant-right" ).text( "03" );
+      $( ".number" ).text( "3" );
       $( ".white-background-text" ).text( "Client: Carl Data Solutions" );
-      $( ".role" ).html( "Cross-Platform Responsive design<br>Complex management system design<br>Backend Development<br>Business Measurement & Analytics");
+      $( ".role" ).html( "Cross-Platform Responsive Development<br>Complex Business management system design<br>Data Measurement & Analytics");
       $( ".black-background-text" ).text( "03" );
       $( ".project-info" ).text( "The integration system collect huge date, with Reporting/Business intelligence tools. The System for multi-language users , with WYSIWYG (Content Management System) integration platform, calculating system, beautiful responsive themes and many more." );
       $('.project-detail-image-1').attr('src','imgs/ets/ets-2.jpg');
@@ -262,7 +269,7 @@
       $(".project-front-image").removeClass("ets-bg");
       $(".project-front-image").addClass("house-bg");
       $(".project-front-image").removeClass("roofing-bg");
-      $( ".contant-right" ).text( "04" );
+      $( ".number" ).text( "4" );
       $( ".white-background-text" ).text( "Client: Real Estate Agent" );
       $( ".role" ).html( "API Real listing<br>Application desing and development<br>Frondend & Backend development" );
       $( ".black-background-text" ).text( "04" );
